@@ -1,0 +1,85 @@
+body {
+    font-family: "M1 Plus", sans-serif;
+  }
+.container {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+  }
+  
+.hide {
+    display: none;
+  } */
+  
+.start {
+    text-align: center;
+}
+  
+.highscores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+  
+.report {
+    color: gray;
+    border-top: 2px solid rgb(201, 193, 193);
+    margin-top: 20px;
+    padding-top: 10px;
+    font-style: bold;
+    font-size: 140%;
+}
+  
+.clock {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+   
+a {
+    color: rgb(18, 41, 248);
+    text-decoration: none;
+    transition: color 0.1s;
+}
+  
+a:hover {
+    color: #70707a;
+}
+  
+button {
+    color: blue;
+    padding: 2 10px;
+    margin: 5px;
+    font-size: 70%;
+    font-family: "M1 Plus", sans-serif;
+    background-color: rgb(38, 245, 72);
+    border-radius: 2px;
+    border: 1;
+    display: inline-block;
+}
+  
+/* button:hover {
+    background-color: ;
+} */
+  
+.choices button {
+    display: block;
+}
+  
+input[type="text"] {
+    font-size: 100%;
+}
+  
+ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+}
+  
+li {
+    padding: 5px;
+    list-style: decimal inside none;
+}
+  
+li:nth-child(odd) {
+    background-color: #dfdae7;
+}
