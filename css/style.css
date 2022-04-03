@@ -8,7 +8,7 @@ body {
   
 .hide {
     display: none;
-  } */
+} 
   
 .start {
     text-align: center;
@@ -57,27 +57,17 @@ button {
     display: inline-block;
 }
   
-/* button:hover {
-    background-color: ;
-} */
-  
 .choices button {
     display: block;
 }
   
-input[type="text"] {
-    font-size: 100%;
-}
-  
 ol {
     padding-left: 0px;
-    max-height: 400px;
-    overflow: auto;
+    max-height: 200px;
 }
   
 li {
     padding: 5px;
-    list-style: decimal inside none;
 }
   
 li:nth-child(odd) {

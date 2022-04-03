@@ -34,7 +34,7 @@ function recieveQuestion() {
   var presentQuestion = questions[presentQuestionGuide];
 
   // updates question prompt
-  var titleEl = document.getElementById("question-title");
+  var titleEl = document.getElementById("prompt");
   titleEl.textContent = presentQuestion.title;
 
   // clears previous choices
