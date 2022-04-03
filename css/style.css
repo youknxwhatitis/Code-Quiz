@@ -38,7 +38,6 @@ body {
 a {
     color: rgb(18, 41, 248);
     text-decoration: none;
-    transition: color 0.1s;
 }
   
 a:hover {
